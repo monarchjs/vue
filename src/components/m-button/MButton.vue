@@ -6,14 +6,17 @@ defineProps<{ text: string }>()
   <button class="btn-cta">{{ text }}</button>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+@import '../../styles/colors';
+$base-color: #1b1b32;
+
 .btn-cta {
-  background-color: #d0d0d5;
+  background-color: $background-secondary;
   border-width: 3px;
   border-color: #1b1b32;
   border-radius: 0;
   border-style: solid;
-  color: #1b1b32;
+  color: $base-color;
   display: block;
   margin-bottom: 0;
   font-weight: normal;
