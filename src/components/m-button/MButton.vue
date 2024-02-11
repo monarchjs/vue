@@ -1,5 +1,8 @@
 <script setup lang="ts">
-defineProps<{ text: string }>()
+defineProps<{
+  text: string
+  variant: 'solid' | 'secondary'
+}>()
 </script>
 
 <template>
