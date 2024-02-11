@@ -6,7 +6,7 @@ defineProps<{ text: string }>()
   <button class="btn-cta">{{ text }}</button>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .btn-cta {
   background-color: #d0d0d5;
   border-width: 3px;
