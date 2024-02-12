@@ -17,5 +17,6 @@ type Story = StoryObj<typeof meta>
 export const Text: Story = {
   args: {
     text: 'Test',
+    variant: 'solid',
   },
 }
